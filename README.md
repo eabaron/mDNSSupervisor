@@ -1,5 +1,9 @@
 # mDNSSupervisor
 
+so we get the same but to sat-efz.ms-acdc.office.com
+I couldn't get the -pattern to work in the plist file so I just hardcoded our problem
+At least it provides a quick fix on our network
+
 mDNSSupervisor supervises mDNSResponder on macOS, and restarts it when it appears to be going beserk (passing a certain threshold of queries per second matching a pattern). Despite its name, it only supervises unicast DNS on port 53; multicast DNS is out of scope.
 
 mDNSSupervisor is my answer to a [system bug](https://apple.stackexchange.com/q/406617/37762) that keeps creeping up on me on macOS 11.0 Big Sur.

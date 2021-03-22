@@ -18,7 +18,7 @@ import (
 
 const (
 	_progName         = "mDNSSupervisor"
-	_defaultPattern   = `push-apple\.com\.akadns\.net`
+	_defaultPattern   = `sat-efz\.ms-acdc\.office\.com`
 	_defaultInterval  = 15
 	_defaultThreshold = 100
 )
